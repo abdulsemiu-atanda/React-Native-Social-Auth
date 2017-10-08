@@ -9,7 +9,8 @@
 	"dependencies": {
 		"react": "16.0.0-beta.5",
 		"react-native": "0.49.2",
-		"react-native-fbsdk": "0.6.0"
+		"react-native-fbsdk": "0.6.0",
+		"react-native-google-signin": "^0.12.0"
 	},
 	"devDependencies": {
 		"babel-jest": "21.2.0",

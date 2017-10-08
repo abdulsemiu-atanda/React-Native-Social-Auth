@@ -3,6 +3,7 @@ package com.authentication;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import co.apptailor.googlesignin.RNGoogleSigninPackage;
 import com.facebook.reactnative.androidsdk.FBSDKPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -11,6 +12,7 @@ import com.facebook.soloader.SoLoader;
 import com.facebook.FacebookSdk;
 import com.facebook.CallbackManager;
 import com.facebook.appevents.AppEventsLogger;
+import co.apptailor.googlesignin.RNGoogleSigninPackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -32,7 +34,9 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new FBSDKPackage(mCallbackManager)
+            new RNGoogleSigninPackage(),
+            new FBSDKPackage(mCallbackManager),
+            new RNGoogleSigninPackage()
       );
     }
 

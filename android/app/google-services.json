@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "756791847762",
+    "firebase_url": "https://authentication-8f844.firebaseio.com",
+    "project_id": "authentication-8f844",
+    "storage_bucket": "authentication-8f844.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756791847762:android:8521cca873064b77",
+        "android_client_info": {
+          "package_name": "com.authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756791847762-208v3m5canh862ko56piq5eml83gtc0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADzg6dXJpPzJW7V8EAL35UR_aEq9tInoA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
